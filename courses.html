@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>All Courses | SkillTrend</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">SkillTrend</div>
+  <input class="search" placeholder="Search courses">
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="categories.html">Categories</a>
+    <a href="cart.html">Cart (<span id="cartCount">0</span>)</a>
+  </div>
+</header>
+
+<div class="section">
+<h2>📚 All Courses (50+)</h2>
+
+<div class="grid">
+
+<!-- PROGRAMMING (1–10) -->
+<div class="card"><img src="https://images.unsplash.com/photo-1587620962725-abab7fe55159"><h3>Python</h3><div class="price">₹399</div><button onclick="addToCart('Python',399)">Add to Cart</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1518770660439-4636190af475"><h3>Java</h3><div class="price">₹399</div><button onclick="addToCart('Java',399)">Add to Cart</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c"><h3>C Programming</h3><div class="price">₹299</div><button onclick="addToCart('C Programming',299)">Add to Cart</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd"><h3>C++ Programming</h3><div class="price">₹349</div><button onclick="addToCart('C++',349)">Add to Cart</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"><h3>DSA</h3><div class="price">₹449</div><button onclick="addToCart('DSA',449)">Add to Cart</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f"><h3>Full Stack Web Dev</h3><div class="price">₹500</div><button onclick="addToCart('Full Stack',500)">Add to Cart</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1605379399642-870262d3d051"><h3>Frontend Development</h3><div class="price">₹399</div><button onclick="addToCart('Frontend',399)">Add to Cart</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1517433456452-f9633a875f6f"><h3>Backend Development</h3><div class="price">₹449</div><button onclick="addToCart('Backend',449)">Add to Cart</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c"><h3>React.js</h3><div class="price">₹599</div><button onclick="addToCart('React',599)">Add to Cart</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c"><h3>Node.js</h3><div class="price">₹549</div><button onclick="addToCart('Node',549)">Add to Cart</button></div>
+
+<!-- DATABASE & CLOUD (11–20) -->
+<div class="card"><img src="https://images.unsplash.com/photo-1517142089942-ba376ce32a0b"><h3>SQL</h3><div class="price">₹299</div><button onclick="addToCart('SQL',299)">Add to Cart</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"><h3>MySQL</h3><div class="price">₹299</div><button onclick="addToCart('MySQL',299)">Add to Cart</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa"><h3>Cloud Computing</h3><div class="price">₹699</div><button onclick="addToCart('Cloud',699)">Add to Cart</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1526378722484-bd91ca387e72"><h3>AWS Basics</h3><div class="price">₹749</div><button onclick="addToCart('AWS',749)">Add to Cart</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1537432376769-00aabc63e1c0"><h3>DevOps</h3><div class="price">₹749</div><button onclick="addToCart('DevOps',749)">Add to Cart</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1510511459019-5dda7724fd87"><h3>Cyber Security</h3><div class="price">₹699</div><button onclick="addToCart('Cyber Security',699)">Add to Cart</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4"><h3>Operating Systems</h3><div class="price">₹399</div><button onclick="addToCart('OS',399)">Add to Cart</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1581092919534-0c6c9f0b1a4f"><h3>Computer Networks</h3><div class="price">₹399</div><button onclick="addToCart('Networks',399)">Add to Cart</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d"><h3>Software Testing</h3><div class="price">₹349</div><button onclick="addToCart('Testing',349)">Add to Cart</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7"><h3>Git & GitHub</h3><div class="price">₹249</div><button onclick="addToCart('Git',249)">Add to Cart</button></div>
+
+<!-- AI & DATA (21–35) -->
+<div class="card"><img src="https://images.unsplash.com/photo-1534759846116-5799c33ce22a"><h3>Artificial Intelligence</h3><div class="price">₹699</div><button onclick="addToCart('AI',699)">Add to Cart</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c"><h3>Machine Learning</h3><div class="price">₹799</div><button onclick="addToCart('ML',799)">Add to Cart</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1518186285589-2f7649de83e0"><h3>Deep Learning</h3><div class="price">₹799</div><button onclick="addToCart('Deep Learning',799)">Add to Cart</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1534759846116-5799c33ce22a"><h3>Data Science</h3><div class="price">₹599</div><button onclick="addToCart('Data Science',599)">Add to Cart</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71"><h3>Power BI</h3><div class="price">₹499</div><button onclick="addToCart('Power BI',499)">Add to Cart</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7"><h3>Tableau</h3><div class="price">₹499</div><button onclick="addToCart('Tableau',499)">Add to Cart</button></div>
+
+<!-- EXTRA CLOUD & DEVOPS COURSES -->
+<div class="card">
+  <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa">
+  <h3>Azure Fundamentals</h3>
+  <div class="price">₹749</div>
+  <button onclick="addToCart('Azure Fundamentals',749)">Add to Cart</button>
+</div>
+
+<div class="card">
+  <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa">
+  <h3>Google Cloud Platform (GCP)</h3>
+  <div class="price">₹749</div>
+  <button onclick="addToCart('GCP',749)">Add to Cart</button>
+</div>
+
+<div class="card">
+  <img src="https://images.unsplash.com/photo-1526378722484-bd91ca387e72">
+  <h3>Docker</h3>
+  <div class="price">₹499</div>
+  <button onclick="addToCart('Docker',499)">Add to Cart</button>
+</div>
+
+<div class="card">
+  <img src="https://images.unsplash.com/photo-1526378722484-bd91ca387e72">
+  <h3>Kubernetes</h3>
+  <div class="price">₹549</div>
+  <button onclick="addToCart('Kubernetes',549)">Add to Cart</button>
+</div>
+
+<div class="card">
+  <img src="https://images.unsplash.com/photo-1537432376769-00aabc63e1c0">
+  <h3>Docker & Kubernetes</h3>
+  <div class="price">₹799</div>
+  <button onclick="addToCart('Docker & Kubernetes',799)">Add to Cart</button>
+</div>
+
+<div class="card">
+  <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4">
+  <h3>Linux Administration</h3>
+  <div class="price">₹399</div>
+  <button onclick="addToCart('Linux Admin',399)">Add to Cart</button>
+</div>
+
+<div class="card">
+  <img src="https://images.unsplash.com/photo-1537432376769-00aabc63e1c0">
+  <h3>CI/CD Pipelines</h3>
+  <div class="price">₹599</div>
+  <button onclick="addToCart('CI/CD',599)">Add to Cart</button>
+</div>
+
+<div class="card">
+  <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa">
+  <h3>Terraform Basics</h3>
+  <div class="price">₹649</div>
+  <button onclick="addToCart('Terraform',649)">Add to Cart</button>
+</div>
+
+<div class="card">
+  <img src="https://images.unsplash.com/photo-1537432376769-00aabc63e1c0">
+  <h3>Ansible Automation</h3>
+  <div class="price">₹599</div>
+  <button onclick="addToCart('Ansible',599)">Add to Cart</button>
+</div>
+
+<div class="card">
+  <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71">
+  <h3>Monitoring (Prometheus & Grafana)</h3>
+  <div class="price">₹649</div>
+  <button onclick="addToCart('Monitoring Tools',649)">Add to Cart</button>
+</div>
+
+<!-- DESIGN & TOOLS (36–50) -->
+<div class="card"><img src="https://images.unsplash.com/photo-1558655146-d09347e92766"><h3>UI/UX Design</h3><div class="price">₹399</div><button onclick="addToCart('UIUX',399)">Add to Cart</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2"><h3>Graphic Designing</h3><div class="price">₹349</div><button onclick="addToCart('Graphic Design',349)">Add to Cart</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"><h3>Canva</h3><div class="price">₹149</div><button onclick="addToCart('Canva',149)">Add to Cart</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7"><h3>Video Editing</h3><div class="price">₹349</div><button onclick="addToCart('Video Editing',349)">Add to Cart</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1605379399642-870262d3d051"><h3>Game Development</h3><div class="price">₹599</div><button onclick="addToCart('Game Dev',599)">Add to Cart</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1551739440-5dd934d3a94a"><h3>3D Modeling</h3><div class="price">₹549</div><button onclick="addToCart('3D Modeling',549)">Add to Cart</button></div>
+
+</div>
+</div>
+
+<footer>© 2026 SkillTrend</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
